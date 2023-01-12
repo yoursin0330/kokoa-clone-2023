@@ -25,6 +25,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	color: #2e363e;
+	font: "Open Sans", sans-serif;
 }
 ol, ul {
 	list-style: none;
