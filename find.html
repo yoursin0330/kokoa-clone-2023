@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search - Kokoa Clone</title>
+    <link rel="icon" href="https://play-lh.googleusercontent.com/fuxcgolZHYW-6aeQsBup_OsWhAKs7kM6Su1nDTCP6h5fGIzhTPe2s47J8BLQac1jsAs">
+    <title>Search</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -36,27 +37,27 @@
         <div class="screen-header__icons">
             <span><i class="fa-lg fa-solid fa-magnifying-glass"></i></span>
             <span style="position:relative;">
-                <span><i class="fa-lg fa-solid fa-gear"></i></span>
-                <span class="badge-dot screen-header__notification-dot "></span></span>
+                <span><a href="settings.html"><i class="fa-lg fa-solid fa-gear"></i></a></span>
+            <span class="badge-dot screen-header__notification-dot "></span></span>
 
         </div>
     </header>
 
     <main class="main-screen">
-        <div class="find-icons">
-            <div class="find-icons__icon">
+        <div class="icon-row">
+            <div class="icon-row__icon">
                 <i class="fa-solid fa-qrcode"></i>
                 <span>QR Code</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="fa-solid fa-address-book"></i>
                 <span>Add by Contacts</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="fa-solid fa-fingerprint"></i>
                 <span>Add by ID</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="fa-solid fa-envelope"></i>
                 <span>Invite</span>
             </div>
@@ -74,10 +75,10 @@
             </div>
             <div class="open-post">
                 <div class="open-post__column">
-                    <h5 class="open-post__title">Nomad Coders</h5>
-                    <h6 class="open-post__hashtags">#coding #programmers</h6>
+                    <h5 class="open-post__title">Bunnies</h5>
+                    <h6 class="open-post__hashtags">#newjeans #bunnies</h6>
                     <div class="open-post__members">
-                        <img src="https://yt3.ggpht.com/ytc/AMLnZu9oK13cNMbLQY4tdSv9a0CWOFlwlfdAF-UDM3ZUmg=s900-c-k-c0x00ffffff-no-rj">
+                        <img src="https://pbs.twimg.com/amplify_video_thumb/1586168481782722561/img/mojWLRWHqu7a5agb.jpg">
                         <span class="open-post__members-count">404 members</span>
                         <div class="divider"></div>
                         <span class="open-post__members-status">Active</span>
@@ -85,7 +86,7 @@
                 </div>
                 <div class="open-post__column">
                     <div class="open-post__photo">
-                       <img src="https://asset.brandfetch.io/idPqy6xHK-/idw-z5KmWb.png?updated=1667566988146"> 
+                       <img src="https://w.namu.la/s/02d8e12f188a05b9ac57f1bd93f20542c5d33168cd18999d07bb50c65ee9571afa0f8496e37ccc59abd22dacb2c7c26119a2b746c9da4cacf051005cb167efda9d65e9e1670e1891d581b93c8b76e135f0744b48a70312f3be4e27e60b5330f4"> 
                         <div class="open-post__heart-count"><i class="fa-solid fa-heart fa-xs"></i><span>123</span></div>
                     </div>
                 </div>
@@ -110,7 +111,9 @@
                     <i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
         </ul>
     </nav>
-
+    <div id="no-mobile">
+        <span>Your screen is too big</span>  
+      </div>
     <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
 </body>
 </html>

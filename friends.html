@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://play-lh.googleusercontent.com/fuxcgolZHYW-6aeQsBup_OsWhAKs7kM6Su1nDTCP6h5fGIzhTPe2s47J8BLQac1jsAs">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>Friends</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -34,24 +35,19 @@
     <header class="screen-header">
         <h1 class="screen-header__title">Friends</h1>
         <div class="screen-header__icons">
-            <span><i class="fa-lg fa-solid fa-magnifying-glass"></i></span>
-            <span><i class="fa-lg fa-solid fa-music"></i></span>
-            <span><i class="fa-lg fa-solid fa-gear"></i></span>
+            <span style="position:relative;">
+                <span><a href="settings.html"><i class="fa-lg fa-solid fa-gear"></i></a></span>
+            <span class="badge-dot screen-header__notification-dot "></span></span>
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fa-solid fa-circle-info"></i>
-        Friends' Names Display
-        <i class="fa-solid fa-chevron-right"></i>
-    </a>
     <main class="friends-screen">
-        <div class="user-component">
+        <div id="this-user"class="user-component">
             <div class="user-component__column">
-                <img src="img/dotted_profile.jpg" class="user-component__avatar user-component__avatar--xl">
+                <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/rabbit_1f407.png" class="user-component__avatar user-component__avatar--xl">
                 <div class="user-component__text">
-                    <h4 class="user-component__title">Doldol Kim</h4>
-                    <h6 class="user-component__subtitle">Please check My Kokoa Talk</h6>
+                    <h4 class="user-component__title">Ban heesu</h4>
+                    <!-- <h6 class="user-component__subtitle">Please check My Kokoa Talk</h6> -->
                 </div>
             </div>
             <div class="user-component__column">
@@ -65,7 +61,7 @@
             </div>
             <div class="user-component">
                 <div class="user-component__column">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3991/3991999.png" class="user-component__avatar--sm user-component__avatar">
+                    <img src="img/album-cd.jpeg" class="user-component__avatar--sm user-component__avatar">
                     <div class="user-component__text">
                         <h4 class="user-component__title--not-bold user-component__title">Channel</h4>
                     </div>
@@ -95,11 +91,19 @@
                 <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
             <li class="nav__btn">
                 <a class="nav__link" href="more.html">
-                    <span class="nav__notification-dot"></span>
+                    <span class="nav__notification-dot badge-dot"></span>
                     <i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
         </ul>
     </nav>
     <div class="under-bar">
+    </div>
+
+    <div id="splash-screen">
+        <span><img src="https://newjeansfonts.carrd.co/assets/images/image08.jpg?v=3ef2df02"></span>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is too big</span>  
     </div>
     <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
 </body>
