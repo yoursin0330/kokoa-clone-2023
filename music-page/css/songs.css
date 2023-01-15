@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 20px 25px;
+    margin-bottom:70px ;
 }
 .songs ul{
     width: 100%;
@@ -51,6 +52,8 @@
     width: 90%;
     background-color: black;
     color: white;
+    position: absolute;
+    bottom:0;
 }
 .songs__now-playing .songs__song-singer{
     color: var(--light-gray);
