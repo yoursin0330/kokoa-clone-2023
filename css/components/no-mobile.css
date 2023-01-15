@@ -1,4 +1,4 @@
-#no-mobile{
+#no-mobile, #no-pc{
     position: absolute;
     z-index: 99;
     height: 100vh;
@@ -12,8 +12,13 @@
     color: black;
     font-weight: 600;
 }
-@media screen and (max-width: 645px){
+@media screen and (min-width: 572px){
     #no-mobile{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px){
+    #no-pc{
         display: none;
     }
 }
