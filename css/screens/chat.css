@@ -1,8 +1,12 @@
 
-#chat-screen{
+.chat-screen{
     height: 200vh;
+    -ms-overflow-style: none;
 }
-#chat-screen .status-bar,#chat-screen .alt-header
+   ::-webkit-scrollbar {
+     display: none;
+   }
+.chat-screen .status-bar, .chat-screen .alt-header
 {
     background-color: #FEFE49;
     top:0;
@@ -10,7 +14,7 @@
     width:100%;
     box-sizing: border-box;
 }
-#chat-screen .alt-header{
+.chat-screen .alt-header{
     top:10px;
     z-index: 1;
 }
@@ -24,7 +28,7 @@
         opacity: 1;
     }
 }
-#chat-screen .status-bar{
+.chat-screen .status-bar{
     z-index: 2;
 }
 .main-chat{
