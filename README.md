@@ -1,6 +1,8 @@
 # Kokoa Clone 2023 UPDATE
-* 뉴진스의 채팅 앱 "포닝"을 테마로 유사하게 제작하였습니다.
-https://yoursin0330.github.io/kokoa-clone-2023/
+
+- 뉴진스의 채팅 앱 "포닝"을 테마로 유사하게 제작하였습니다.
+- https://yoursin0330.github.io/kokoa-clone-2023/
+
 ## 실행 화면
 ![image](https://github.com/yoursin0330/kokoa-clone-2023/assets/103302201/bed56aa2-1c00-45e1-9cad-9208d4348de7)
 ![image](https://github.com/yoursin0330/kokoa-clone-2023/assets/103302201/bfb4b804-f52f-4c93-997b-94a0ffeddcf7)
